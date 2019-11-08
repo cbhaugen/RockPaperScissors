@@ -1,0 +1,91 @@
+body {
+  background-color: #e1dddb;
+  font-family: Helvetica, sans-serif;
+
+}
+
+.btn {
+  background-color: #abdff1;
+  border: 3px solid #0ea7b5;
+  border-radius: 8px;
+  color: #0c4a60;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+  width: 150px;
+}
+
+.btn:hover {
+  box-shadow: 0px 5px 20px 0 #0c4a60;
+}
+
+.btn:active {
+
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.50;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+}
+
+#pick {
+  color: #ef6c33;
+  font-size: 35px;
+}
+
+#roundPicks, #score {
+  color: #ef6c33;
+  font-size: 30px;
+}
+
+h1 {
+  color: #0c4a60;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+#gameSpace {
+  border: 4px solid #0c4a60;
+  border-radius: 4px;
+  margin: 0 auto;
+  width: 600px;
+  height: 575px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 40px 40px;
+  grid-gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputText {
+  display: flex;
+  align-items: center;
+  color: #0ea7b5;
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+  height: 30px;
+  margin: auto;
+}
+
+.labelText {
+  display: flex;
+  align-items: center;
+  color: #ef6c33;
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+  text-decoration: underline;
+  margin: auto;
+}
